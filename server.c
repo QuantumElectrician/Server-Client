@@ -157,7 +157,7 @@ void addToResults(int number, long PID)
             break;
         }
     }
-    if (flag == 1)
+    if (flag == 0)
     {
         addToResults(number, PID);
     }
